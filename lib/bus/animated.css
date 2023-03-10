@@ -1,0 +1,163 @@
+* {
+  margin: AUTO;
+  padding: 0;
+
+}
+
+body {
+  min-height: 100vh;
+
+
+
+}
+
+.t1 {
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.t2 {
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.sticky-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  bottom: 0;
+
+  top: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.para {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-size: 330px;
+  color:RED;
+  font-weight: 100;
+  padding: 0px 2px;
+}
+
+.line {
+  width: 
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: LEFT;
+}
+
+.t3 {
+  font-weight: 500;
+}
+
+.copy {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  line-height: 35px;
+}
+
+.footer {
+  font-family: sans-serif;
+}
+
+
+model-viewer {
+  background-color: #817D8B;
+  margin-left: auto;
+  margin-right: auto;
+  height: 475px;
+  width:878px;
+border-radius:20px;
+
+  /* max-height: fit-content; */
+
+
+}
+
+
+#myDIV {
+  height:200px;
+  background-color:#0c1321;
+  border: 1px solid black;
+  border-radius:10px;
+  padding:20px;
+ width:840px;
+
+}
+
+
+#myDIV1 {
+  height:400px;
+  background-color:#0c1321;
+  border: 1px solid black;
+  border-radius:10px;
+  padding:20px;
+ width:840px;
+ margin-left: auto;
+  margin-right: auto;
+
+}
+.button {
+  background-color:orange; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+ margin-left: auto;
+  margin-right: auto;
+float:right;
+}
+
+
+.myBtn{
+
+
+color:orange; 
+}
+
+
+
+
+@media only screen and (max-width :700px) { 
+ .view{
+  height: 40vh;
+ }
+  model-viewer{
+    height: 100%;
+  }
+}
+
+p {
+  text-align: justify;
+
+}
+
+@media only screen and (max-width:480px) {
+  model-viewer{
+    height: 48vh;
+  }
+}
